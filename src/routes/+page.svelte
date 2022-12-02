@@ -81,6 +81,7 @@
         >BLAZINGLY FAST!</strong
       >
     </h2>
+    <small>Made with ♥️ by <a href="https://twitter.com/PaoloRicciuti">paoloricciuti</a></small>
   </div>
   <Container classes="w-11/12 sm:w-1/2 m-auto">
     <form class="grid text-center gap-4" use:enhance>
