@@ -5,7 +5,7 @@ export function openCodepen(input: string) {
     form.setAttribute("target", "_blank");
     const today = new Date();
     const data = {
-        html: `<script>window.input=\`${input}\`</script>      <h1>Powered by <img src="https://adventofcode.com/favicon.png" width="16" alt="advent of code logo"/><a href="https://speedventofcode.netlify.app" target="_blank" rel="noopener noreferre">speedventofcode.netlify.app</a></h1>
+        html: `<script>window.input=\`${input}\`</script>      <h1>Powered by <img src="https://adventofcode.com/favicon.png" width="16" alt="advent of code logo"/><a href="https://speedvent-of-co.de" target="_blank" rel="noopener noreferre">speedvent-of-co.de</a></h1>
         <h2>This is an automatically generated HTML file that let you code the #AdventOfCode without the hassle of downloading the input and spin up a new project. Type in js part of the codepen and look at the console. (the input has been added to the html to avoid cluttering your code)</h2>`,
         js: `const {input} = window;`,
         css: `*{

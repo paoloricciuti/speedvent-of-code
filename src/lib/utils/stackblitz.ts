@@ -36,7 +36,7 @@ function indexHtml(today: Date) {
       </style>
     </head>
     <body>
-      <h1>Powered by <img src="https://adventofcode.com/favicon.png" width="16" alt="advent of code logo"/><a href="https://speedventofcode.netlify.app" target="_blank" rel="noopener noreferre">speedventofcode.netlify.app</a></h1>
+      <h1>Powered by <img src="https://adventofcode.com/favicon.png" width="16" alt="advent of code logo"/><a href="https://speedvent-of-co.de" target="_blank" rel="noopener noreferre">speedvent-of-co.de</a></h1>
       <h2>This is an automatically generated Typescript project that let you code the #AdventOfCode without the hassle of downloading the input and spin up a new project. Type in the file and look at the console.</h2>
     </body>
     </html>`;
