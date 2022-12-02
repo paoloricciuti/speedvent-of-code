@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@builder.io/partytown': ^0.7.2
   '@fontsource/source-code-pro': ^4.5.12
   '@stackblitz/sdk': ^1.8.1
   '@sveltejs/adapter-netlify': 1.0.0-next.84
@@ -16,6 +17,7 @@ specifiers:
   vite: ^3.2.4
 
 dependencies:
+  '@builder.io/partytown': 0.7.2
   '@fontsource/source-code-pro': 4.5.12
   '@stackblitz/sdk': 1.8.1
   '@sveltejs/adapter-netlify': 1.0.0-next.84
@@ -33,6 +35,11 @@ devDependencies:
   vite: 3.2.4
 
 packages:
+
+  /@builder.io/partytown/0.7.2:
+    resolution: {integrity: sha512-TmRHuN4gdsOJxBGsPPirJAMuXDm0o9cx9t5ltSson+F+K5ES3eNiBCxBGvSSkoEARvZ+kl1n7WVi+8qNyJdeAQ==}
+    hasBin: true
+    dev: false
 
   /@esbuild/android-arm/0.15.16:
     resolution: {integrity: sha512-nyB6CH++2mSgx3GbnrJsZSxzne5K0HMyNIWafDHqYy7IwxFc4fd/CgHVZXr8Eh+Q3KbIAcAe3vGyqIPhGblvMQ==}
