@@ -6,7 +6,7 @@
 <slot />
 
 <style>
-  :global(body) {
+  :global(body,html) {
     @apply bg-primary-900 text-white-500;
     font-family: "Source Code Pro";
     overflow: hidden;
