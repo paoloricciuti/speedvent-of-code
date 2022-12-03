@@ -34,7 +34,7 @@ function getHref(input: string) {
       </style>
     </head>
     <body>
-      <script>
+      <script type="module">
         const input = window.input;
       </script>
       <h1>Powered by <img src="https://adventofcode.com/favicon.png" width="16" alt="advent of code logo"/><a href="https://speedvent-of-co.de" target="_blank" rel="noopener noreferre">speedvent-of-co.de</a></h1>

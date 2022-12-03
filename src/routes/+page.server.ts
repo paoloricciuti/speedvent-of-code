@@ -13,8 +13,11 @@ export const actions: Actions = {
         const formData = await request.formData();
         const session = formData.get("session");
         if (session) {
+            const expires=new Date(new Date().getTime() + 1000*60*60*24*30);
             cookies.set("session", session.toString(), {
                 secure: true,
+                expires,
+                
             });
             return {
                 success: true,
